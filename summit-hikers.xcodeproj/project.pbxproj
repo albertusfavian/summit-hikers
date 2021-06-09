@@ -14,10 +14,7 @@
 		8EB08B6C2670C6E9004372AC /* summit_hikers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EB08B6A2670C6E9004372AC /* summit_hikers.xcdatamodeld */; };
 		8EB08B6E2670C6EB004372AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB08B6D2670C6EB004372AC /* Assets.xcassets */; };
 		8EB08B712670C6EB004372AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB08B6F2670C6EB004372AC /* LaunchScreen.storyboard */; };
-		8EB08B7B2670CA7A004372AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB08B7A2670CA7A004372AC /* Main.storyboard */; };
-		8EB08B7D2670CA9C004372AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB08B7C2670CA9C004372AC /* ViewController.swift */; };
-		8EB08B822670CAED004372AC /* Engine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB08B802670CAED004372AC /* Engine.storyboard */; };
-		8EB08B832670CAED004372AC /* EngineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB08B812670CAED004372AC /* EngineViewController.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +27,7 @@
 		8EB08B6D2670C6EB004372AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EB08B702670C6EB004372AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EB08B722670C6EB004372AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8EB08B7A2670CA7A004372AC /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		8EB08B7C2670CA9C004372AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8EB08B802670CAED004372AC /* Engine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Engine.storyboard; sourceTree = "<group>"; };
-		8EB08B812670CAED004372AC /* EngineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EngineViewController.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +44,7 @@
 		8EB08B552670C6E9004372AC = {
 			isa = PBXGroup;
 			children = (
+				9DA8F67B2670CA6400FC76EE /* Cockpit */,
 				8EB08B602670C6E9004372AC /* summit-hikers */,
 				8EB08B5F2670C6E9004372AC /* Products */,
 			);
@@ -80,22 +75,7 @@
 			path = "summit-hikers";
 			sourceTree = "<group>";
 		};
-		8EB08B782670CA35004372AC /* Engine */ = {
-			isa = PBXGroup;
-			children = (
-				8EB08B802670CAED004372AC /* Engine.storyboard */,
-				8EB08B812670CAED004372AC /* EngineViewController.swift */,
-			);
-			path = Engine;
-			sourceTree = "<group>";
-		};
-		8EB08B792670CA5F004372AC /* Control */ = {
-			isa = PBXGroup;
-			children = (
-				8EB08B7A2670CA7A004372AC /* Main.storyboard */,
-				8EB08B7C2670CA9C004372AC /* ViewController.swift */,
-			);
-			path = Control;
+
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +138,7 @@
 				8EB08B712670C6EB004372AC /* LaunchScreen.storyboard in Resources */,
 				8EB08B822670CAED004372AC /* Engine.storyboard in Resources */,
 				8EB08B6E2670C6EB004372AC /* Assets.xcassets in Resources */,
+				9DA8F67F2670CA8B00FC76EE /* Cockpit.storyboard in Resources */,
 				8EB08B692670C6E9004372AC /* Main.storyboard in Resources */,
 				8EB08B7B2670CA7A004372AC /* Main.storyboard in Resources */,
 			);
@@ -175,6 +156,7 @@
 				8EB08B832670CAED004372AC /* EngineViewController.swift in Sources */,
 				8EB08B622670C6E9004372AC /* AppDelegate.swift in Sources */,
 				8EB08B6C2670C6E9004372AC /* summit_hikers.xcdatamodeld in Sources */,
+				9DA8F67E2670CA8B00FC76EE /* CockpitViewController.swift in Sources */,
 				8EB08B642670C6E9004372AC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
