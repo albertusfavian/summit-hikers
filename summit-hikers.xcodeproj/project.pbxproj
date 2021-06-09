@@ -14,6 +14,8 @@
 		8EB08B6C2670C6E9004372AC /* summit_hikers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EB08B6A2670C6E9004372AC /* summit_hikers.xcdatamodeld */; };
 		8EB08B6E2670C6EB004372AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB08B6D2670C6EB004372AC /* Assets.xcassets */; };
 		8EB08B712670C6EB004372AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB08B6F2670C6EB004372AC /* LaunchScreen.storyboard */; };
+		9DA8F67E2670CA8B00FC76EE /* CockpitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8F67C2670CA8B00FC76EE /* CockpitViewController.swift */; };
+		9DA8F67F2670CA8B00FC76EE /* Cockpit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8F67D2670CA8B00FC76EE /* Cockpit.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		8EB08B6D2670C6EB004372AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EB08B702670C6EB004372AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EB08B722670C6EB004372AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA8F67C2670CA8B00FC76EE /* CockpitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CockpitViewController.swift; sourceTree = "<group>"; };
+		9DA8F67D2670CA8B00FC76EE /* Cockpit.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Cockpit.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 		8EB08B552670C6E9004372AC = {
 			isa = PBXGroup;
 			children = (
+				9DA8F67B2670CA6400FC76EE /* Cockpit */,
 				8EB08B602670C6E9004372AC /* summit-hikers */,
 				8EB08B5F2670C6E9004372AC /* Products */,
 			);
@@ -68,6 +73,15 @@
 				8EB08B6A2670C6E9004372AC /* summit_hikers.xcdatamodeld */,
 			);
 			path = "summit-hikers";
+			sourceTree = "<group>";
+		};
+		9DA8F67B2670CA6400FC76EE /* Cockpit */ = {
+			isa = PBXGroup;
+			children = (
+				9DA8F67D2670CA8B00FC76EE /* Cockpit.storyboard */,
+				9DA8F67C2670CA8B00FC76EE /* CockpitViewController.swift */,
+			);
+			path = Cockpit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +143,7 @@
 			files = (
 				8EB08B712670C6EB004372AC /* LaunchScreen.storyboard in Resources */,
 				8EB08B6E2670C6EB004372AC /* Assets.xcassets in Resources */,
+				9DA8F67F2670CA8B00FC76EE /* Cockpit.storyboard in Resources */,
 				8EB08B692670C6E9004372AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +158,7 @@
 				8EB08B662670C6E9004372AC /* ViewController.swift in Sources */,
 				8EB08B622670C6E9004372AC /* AppDelegate.swift in Sources */,
 				8EB08B6C2670C6E9004372AC /* summit_hikers.xcdatamodeld in Sources */,
+				9DA8F67E2670CA8B00FC76EE /* CockpitViewController.swift in Sources */,
 				8EB08B642670C6E9004372AC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
